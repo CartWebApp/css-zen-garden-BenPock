@@ -1,1 +1,19 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
+    #zen-intro.intro{
+    max-width: 30%;
+    align-self: center;
+    margin-left: 35%;
+}
+#zen-supporting.main.supporting{
+    max-width: 30%;
+    margin-left:  35%;
+}
+*{
+    animation: bon 15s ease-in-out infinite;
+}
+
+/* @keyframes bon { */
+    0% {background-color: white;}
+    15% {background-color: aqua;}
+    30% {background-color:wheat ;
+}
