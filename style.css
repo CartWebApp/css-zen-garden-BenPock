@@ -1,19 +1,41 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
     #zen-intro.intro{
-    max-width: 30%;
+    max-width: 35%;
     align-self: center;
-    margin-left: 35%;
+    margin-left: 34%;
+    background-color: blanchedalmond;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
 }
 #zen-supporting.main.supporting{
-    max-width: 30%;
-    margin-left:  35%;
+    max-width: 35%;
+    margin-left:  34%;
+    background-color: blanchedalmond;
+    margin-top: 0%;
+    padding-top: 0%;
+    justify-content: center;
 }
 *{
     animation: bon 15s ease-in-out infinite;
 }
 
-/* @keyframes bon { */
-    0% {background-color: white;}
-    15% {background-color: aqua;}
-    30% {background-color:wheat ;
+
+.page-wrapper{
+    background-color: bisque;
+background-image: url(empty-sea-beach-background_74190-313.avif);
+background-repeat: no-repeat;
+background-size: 2950px;
+flex-direction: row;
+
 }
+.wrapper{
+display: inline-block;
+
+}
+.sidebar{
+    display: inline-block;
+}
+#design-selection.design-selection{
+    
+}
+
