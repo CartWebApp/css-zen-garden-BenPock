@@ -1,5 +1,9 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
-    #zen-intro.intro{
+    
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+
+#zen-intro.intro{
     max-width: 35%;
     align-self: center;
     margin-left: 34%;
@@ -15,18 +19,16 @@
     padding-top: 0%;
     justify-content: center;
 }
-*{
-    animation: bon 15s ease-in-out infinite;
-}
+
 
 
 .page-wrapper{
     background-color: bisque;
 background-image: url(empty-sea-beach-background_74190-313.avif);
 background-repeat: no-repeat;
-background-size: 2950px;
+background-size: 200em;
 flex-direction: row;
-
+background-image: url
 }
 .wrapper{
 display: inline-block;
@@ -38,4 +40,45 @@ display: inline-block;
 #design-selection.design-selection{
     
 }
+
+
+
+
+* {
+  font-family: "Caveat";
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.sidebar {
+    background-image: url(krusty-removebg-preview.png);
+    background-repeat: no-repeat;
+    
+    width: 225px;
+    padding-top: 164px;
+    position: absolute;
+    top: 300px;
+    margin-left: 20%;
+background-color:#D4B37F;
+padding-right: 50px;
+padding-bottom: 100px;
+}
+a:link{
+  color: green;  
+}
+
+a:visited{
+    color: lightgreen;
+}
+
+a:active{
+
+}
+
+
+
+a:hover{
+    color: darkgreen;
+}
+
 
