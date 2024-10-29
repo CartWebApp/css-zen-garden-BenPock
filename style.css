@@ -1,9 +1,9 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
-    
+
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
 
 
-#zen-intro.intro{
+#zen-intro.intro {
     max-width: 35%;
     align-self: center;
     margin-left: 34%;
@@ -11,74 +11,79 @@
     padding-bottom: 0%;
     margin-bottom: 0%;
 }
-#zen-supporting.main.supporting{
+
+#zen-supporting.main.supporting {
     max-width: 35%;
-    margin-left:  34%;
-    background-color: blanchedalmond;
+    margin-left: 34%;
+
     margin-top: 0%;
     padding-top: 0%;
     justify-content: center;
+    background-image: url(Screenshot_2024-10-29_100132-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size:120% ;
+    padding: 50px;
+    background-position: center;
 }
 
 
 
-.page-wrapper{
+.page-wrapper {
+ 
     background-color: bisque;
-background-image: url(empty-sea-beach-background_74190-313.avif);
-background-repeat: no-repeat;
-background-size: 200em;
-flex-direction: row;
-background-image: url
+    background-image: url(empty-sea-beach-background_74190-313.avif);
+    background-repeat: no-repeat;
+    background-size: 200em;
+    flex-direction: row;
+    background-image: url
 }
-.wrapper{
-display: inline-block;
+
+.wrapper {
+    display: inline-block;
 
 }
-.sidebar{
-    display: inline-block;
-}
-#design-selection.design-selection{
-    
-}
+
+
+
 
 
 
 
 * {
-  font-family: "Caveat";
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+    font-family: "Caveat";
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
+
 .sidebar {
+    display: flex;
+    align-self: auto;
     background-image: url(krusty-removebg-preview.png);
     background-repeat: no-repeat;
-    
+    display: inline-block;
     width: 225px;
     padding-top: 164px;
     position: absolute;
     top: 300px;
-    margin-left: 20%;
-background-color:#D4B37F;
-padding-right: 50px;
-padding-bottom: 100px;
-}
-a:link{
-  color: green;  
+    margin-left: 18%;
+    background-color: #D4B37F;
+    padding-right: 50px;
+    padding-bottom: 100px;
 }
 
-a:visited{
+a:link {
+    color: green;
+}
+
+a:visited {
     color: lightgreen;
 }
 
-a:active{
-
-}
+a:active {}
 
 
 
-a:hover{
+a:hover {
     color: darkgreen;
 }
-
-
