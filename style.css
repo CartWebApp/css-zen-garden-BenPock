@@ -168,3 +168,11 @@ p ~ h3{
 p::first-letter{
     color: purple;
 }
+
+p:nth-last-child(3){
+    color: lawngreen;
+}
+
+h1:nth-last-of-type(1){
+    color: lightsalmon;
+}
