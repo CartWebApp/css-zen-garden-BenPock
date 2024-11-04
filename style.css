@@ -176,3 +176,17 @@ p:nth-last-child(3){
 h1:nth-last-of-type(1){
     color: lightsalmon;
 }
+
+
+p:last-of-type{
+    color: blue;
+}
+
+
+p:first-of-type{
+    color: grey;
+}
+
+input:focus{
+    background-color: yellow;
+}
